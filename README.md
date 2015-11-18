@@ -1,9 +1,9 @@
 # PCA
-Principal component analysis in C++
-    * wiki : https://en.wikipedia.org/wiki/Principal_component_analysis
+Principal component analysis in C++  
+    * wiki : https://en.wikipedia.org/wiki/Principal_component_analysis  
 
-#Usage
-##input
+##Usage
+###input
 * template <class T>
     * T could be float or double
 * const int N & M (size of data)
@@ -18,8 +18,8 @@ Principal component analysis in C++
 * const T Err
     * precision of answer
     * default with 0.00001
-        * OK with T = float
-##output
+        * OK with T = float  
+###output
 * return : pca result
     * T** EigenMatrix
         * size : [M][M+1]
