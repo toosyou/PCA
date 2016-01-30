@@ -29,8 +29,11 @@ wiki : https://en.wikipedia.org/wiki/Principal_component_analysis
         * sorted by eigenvalues
 
 ###test
-* original data : 
-* expected result :
+* original data :  
+   ![alt tag](https://github.com/toosyou/PCA/blob/master/original_data.JPG)
+* expected result :  
+   ![alt tag](https://github.com/toosyou/PCA/blob/master/expected_result.JPG)  
+   note : the vector may be -expected_vector which is normal.  
 
 ##Contact Me
 ###Me
