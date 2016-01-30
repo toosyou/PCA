@@ -28,6 +28,10 @@ wiki : https://en.wikipedia.org/wiki/Principal_component_analysis
         * [Eigenvector[0],Eigenvector[1],...,Eigenvector[m-1],Eigenvalue] * M
         * sorted by eigenvalues
 
+###test
+* original data : 
+* expected result :
+
 ##Contact Me
 ###Me
 A silly student of NCTU. Coding for life :)
