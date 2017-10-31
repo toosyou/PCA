@@ -2,8 +2,8 @@
 Principal component analysis in C++  
 wiki : https://en.wikipedia.org/wiki/Principal_component_analysis
 
-##Usage
-###input
+## Usage
+### input
 * `template <class T>`
     * T could be float or double
 * `const int N, M`
@@ -21,22 +21,22 @@ wiki : https://en.wikipedia.org/wiki/Principal_component_analysis
     * default with 0.00001
         * OK with T = `float`
 
-###output
+### output
 * return : pca result
     * `T** EigenMatrix`
         * size : [M][M+1]
         * [Eigenvector[0],Eigenvector[1],...,Eigenvector[m-1],Eigenvalue] * M
         * sorted by eigenvalues
 
-###test
+### test
 * original data :  
    ![alt tag](https://github.com/toosyou/PCA/blob/master/original_data.JPG)
 * expected result :  
    ![alt tag](https://github.com/toosyou/PCA/blob/master/expected_result.JPG)  
    note : the vector may be -expected_vector which is normal.  
 
-##Contact Me
-###Me
-A silly student of NCTU. Coding for life :)
-###Email
+## Contact Me
+### Me
+Student of NCTU. Life is hard for me :(
+### Email
 ycc.cs03@nctu.edu.tw
